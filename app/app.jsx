@@ -10,6 +10,9 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+// app.css
+require('style!css!sass!applicationStyles')
+
 var fullName = "Shad Sluiter";
 var theMessage = "A message from React";
 ReactDOM.render(
